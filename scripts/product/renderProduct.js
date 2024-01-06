@@ -50,7 +50,7 @@ export const renderProducts = (products) => {
           <div class="item__stock text-small text-grey">${item.warehouse}</div>
           <div class="item__org text-small text-grey">
             ${item.organization.name}
-            <img class='more-info' src="./public/favicon/info.svg" alt="" />
+            <img class='more-info' src="./favicon/info.svg" alt="" />
             <div class="popup popup--org">
               <h3>${item.organization.name}</h3>
               <p>${item.organization.OGRN}</p>
@@ -77,10 +77,10 @@ export const renderProducts = (products) => {
         ${item.availability < 3 ? `<div class="item__remain">Осталось ${item.availability} шт.</div>` : ''}
         <div class="item__action-logo">
           <button class="item__action-favorite" type="button">
-            <img src="./public/favicon/favorites.svg" alt="Избранное" class='favorite'/>
+            <img src="./favicon/favorites.svg" alt="Избранное" class='favorite'/>
           </button>
           <button class="item__action-delete" type="button">
-            <img src="./public/favicon/backet.svg" alt="Удалить товар" />
+            <img src="./favicon/backet.svg" alt="Удалить товар" />
           </button>
         </div>
       </div>
@@ -137,10 +137,10 @@ export const renderMissingProducts = (products) => {
         <div class="item__action item__action--missing">
           <div class="item__action-logo item__action-logo--missing">
             <button class="item__action-favorite" type="button">
-              <img src="./public/favicon/favorites.svg" alt="Избранное" class='favorite'/>
+              <img src="./favicon/favorites.svg" alt="Избранное" class='favorite'/>
             </button>
             <button class="item__action-delete" type="button">
-              <img src="./public/favicon/favicon/backet.svg" alt="Удалить товар" />
+              <img src="./favicon/favicon/backet.svg" alt="Удалить товар" />
             </button>
         </div>
         </div>
