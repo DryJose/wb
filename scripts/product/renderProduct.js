@@ -140,7 +140,7 @@ export const renderMissingProducts = (products) => {
               <img src="./favicon/favorites.svg" alt="Избранное" class='favorite'/>
             </button>
             <button class="item__action-delete" type="button">
-              <img src="./favicon/favicon/backet.svg" alt="Удалить товар" />
+              <img src="./favicon/backet.svg" alt="Удалить товар" />
             </button>
         </div>
         </div>

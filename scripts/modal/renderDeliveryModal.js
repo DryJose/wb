@@ -29,12 +29,12 @@ export const renderDeliveryModal = () => {
       <div class="choice__text">${address}</div>
       ${deliveryType === 'В пункт выдачи' ?
         `<div class="choice__rating rating">
-          <img src="../../public/favicon/star.svg" alt="" />
+          <img src="./favicon/star.svg" alt="" />
           <span>4.99</span>
           <span>Пункт выдачи</span>
         </div>` : ''}
     </label>
-    <img class="choice__delete" src="../../public/favicon/backet.svg" alt="" />
+    <img class="choice__delete" src="./favicon/backet.svg" alt="" />
   `;
  
   return addressItem;
