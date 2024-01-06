@@ -1,0 +1,18 @@
+:root {
+    --system-violet: #6725a8;
+    --background-smoky: #f6f6fa;
+    --system-white: #fff;
+    --system-orange: hsl(13, 91%, 55%);
+    --system-gray: #9797af;
+    --system-green: #0cb477;
+    --system-magenta: #cb11ab;
+    --text-black: #000;
+    --red: #ff3b30;
+    --system-smoky-dark: #f0ecf4;
+    --background: rgba(5, 0, 10, 0.3);
+    --light-system-gray: #a0a0a4;
+    --active-button: invert(25%) sepia(95%) saturate(7282%) hue-rotate(302deg) brightness(91%)
+      contrast(94%);
+    --hover-delete-button: invert(40%) sepia(99%) saturate(1841%) hue-rotate(343deg) brightness(94%)
+      contrast(105%);
+  }
